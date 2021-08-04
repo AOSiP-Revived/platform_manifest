@@ -20,6 +20,7 @@
   <project path="external/ppp" name="android_external_ppp" remote="lineage" />
   <project path="external/rsync" name="android_external_rsync" remote="lineage" />
   <project path="external/unrar" name="android_external_unrar" remote="lineage" />
+  <project path="external/sqlite" name="android_external_sqlite" groups="pdk" remote="lineage" />
   <project path="external/vim" name="android_external_vim" remote="lineage" />
   <project path="external/v8" name="android_external_v8" remote="lineage" />
   <project path="external/wpa_supplicant_8" name="android_external_wpa_supplicant_8" remote="lineage" />
@@ -114,6 +115,7 @@
   <!-- System -->
   <project path="system/connectivity/wificond" name="android_system_connectivity_wificond" remote="lineage" />
   <project path="system/libfmq" name="android_system_libfmq" remote="lineage" />
+  <project path="system/libhwbinder" name="android_system_libhwbinder" groups="pdk" remote="lineage" />
   <project path="system/timezone" name="android_system_timezone" remote="lineage" />
   <project path="system/tools/dtbtool" name="android_system_tools_dtbtool" remote="lineage" />
   <project path="system/tools/hidl" name="android_system_tools_hidl" remote="lineage" />
