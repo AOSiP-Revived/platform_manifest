@@ -19,6 +19,15 @@
            fetch="https://github.com/AOSiP-Devices"
            revision="refs/heads/ten" />
 
+  <remote name="pixel"
+           fetch="https://github.com/PixelExperience"
+           revision="ten"
+           review="gerrit.pixelexperience.org" />
+
+  <remote name="exp"
+           fetch="https://gitlab.com/roms-experimental"
+           revision="mint2" />
+
   <!-- AOSiP -->
   <!-- General -->
   <project path="art" name="platform_art" remote="aosip" />
@@ -70,6 +79,8 @@
   <project path="external/libhevc" name="platform_external_libhevc" remote="aosip" />
   <project path="external/libnfc-nxp" name="platform_external_libnfc-nxp" remote="aosip" />
   <project path="external/mksh" name="platform_external_mksh" remote="aosip" />
+  <project path="external/motorola/faceunlock" name="external_motorola_faceunlock" remote="exp" />
+  <project path="external/motorola/faceunlock-res" name="external_motorola_faceunlock-res" remote="pixel" />
   <project path="external/nano" name="platform_external_nano" remote="aosip" />
   <project path="external/ntfs-3g" name="platform_external_ntfs-3g" remote="aosip" />
   <project path="external/pulse" name="platform_external_pulse" remote="aosip" />
@@ -161,7 +172,7 @@
   <project path="tools/apifinder" name="platform_tools_apifinder" remote="aosip" />
 
   <!-- Vendor -->
-  <project path="vendor/aosip" name="platform_vendor_aosip" remote="aosip" />
+  <project path="vendor/aosip" name="platform_vendor_aosip" remote="aosip-rev" />
   <project path="vendor/codeaurora/telephony" name="platform_vendor_codeaurora_telephony" remote="aosip" />
   <project path="vendor/overlay" name="platform_vendor_overlay" remote="aosip" />
   <project path="vendor/pixelgapps" name="TeamIllusion/platform_vendor_pixelgapps" remote="gitlab" revision="ten" />
